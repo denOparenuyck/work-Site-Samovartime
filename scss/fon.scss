@@ -1,0 +1,56 @@
+.fon{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+.fon__inner{
+    max-width: 740px;
+    min-height: 576px;
+    top: -500px;
+    position: absolute;
+    z-index: 1;
+}
+.fon__img{
+    width: 100%;
+}
+// fon--2
+
+
+.fon--2{
+    .fon__inner{
+        max-width: 740px;
+        min-height: 576px;
+        top: -350px;
+        right: 0;
+        position: absolute;
+    }
+}
+
+
+// fon--3
+
+
+.fon--3{
+    .fon__inner{
+        max-width: 463px;
+        min-height: 1308px;
+        top: -320px;
+        left: 0;
+        position: absolute;
+    }
+}
+
+
+///fon--4
+
+
+.fon--4{
+    .fon__inner{
+        max-width: 420px;
+        min-height: 1308px;
+        top: 40px;
+        right:0;
+        position: absolute;
+        z-index: -1;
+    }
+}

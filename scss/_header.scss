@@ -1,0 +1,49 @@
+.header{
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 90px 0 100px;
+}
+.header__title{
+    font-family: 'Gilroy Bold';
+    font-weight: bold;
+    font-size: 72px;
+    color: #000000;
+    margin: 0 0 77px;
+    text-align: center;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    position: relative;
+    z-index: 2;
+}
+.header-top__img-style{
+    margin-right: 109px;
+    width: 100%;
+}
+.header-top__content-title{
+    margin-bottom: 26px;
+}
+
+
+
+@media(max-width:1040px){
+    .header-top{
+        flex-direction: column;
+    }
+    .header-top__img-style{
+        margin-right: 0;
+    }
+    .header-top__content{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:550px){
+    .header__title{
+        font-size: 40px;
+    }
+}

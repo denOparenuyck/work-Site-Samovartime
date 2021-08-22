@@ -1,0 +1,35 @@
+.about-us{
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10;
+}
+.about-us__title{
+    margin-bottom: 66px;
+}
+.about-us__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-us__content{
+    width: 47%;
+}
+.about-us__gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 25px;
+}
+.about-us__gallery-img{
+    width: 100%;
+}
+
+
+@media(max-width:940px){
+    .about-us__wrapper{
+        flex-direction: column;
+    }
+    .about-us__content{
+        width: 100%;
+    }
+}

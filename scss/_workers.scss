@@ -1,0 +1,154 @@
+.workers{
+    padding: 100px 0 100px;
+
+    .workers-slider{
+        display: none;
+    }
+}
+.workers__title{
+    margin-bottom: 26px;
+}
+.workers__subtitle{
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto 67px;
+    color: #3D3D3D;
+    max-width: 588px;
+}
+.workers-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.workers-group--1{
+    margin-bottom: 60px;
+}
+.workers-card{
+    max-width: 303px;
+    text-align: center;
+    color: #3D3D3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.workers__card--group{
+    display: none;
+}
+.workers-card__info{
+    width: 100%;
+    background-color: #ECECEC;
+    padding: 20px 40px;
+    margin-bottom: 35px;
+}
+.workers-card__info-img{
+    display: inline;
+    margin-bottom: 15px;
+}
+.workers-card__name{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.workers-card__position{
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 33px;
+}
+.workers-card__skill{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #84BD52;
+}
+.workers-card__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span{
+        font-family: Gilroy;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #3D3D3D;
+    }
+}
+.workers-card__contact-btn{
+    background-color: #84BD52;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 19px 40px;
+    margin-bottom: 20px;
+}
+.workers-card__contact-number,.workers-card__contact-email{
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3D3D3D;
+    margin-bottom: 11px;
+}
+.workers-card__contact-list{
+    display: flex;
+    align-items: center;
+}
+.contact-list__item{
+    margin-right: 10px;
+}
+
+.workers-slider{
+    .slick-dots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        li + li{
+            margin-left: 20px;
+        }
+        button{
+            width: 39px;
+            height: 16px;
+            background-color: #eeee;
+            border-radius: 20px;
+            font-size: 0;
+        }
+        .slick-active{
+            width: 72px;
+            height: 16px;
+            background-color: #84BD52;
+            border-radius: 20px;
+            button{
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+@media(max-width:663px){
+    .workers-cards{
+        display: none;
+    }
+    .workers{   
+        .workers-slider{
+            display:block;
+        }
+        .workers-card{
+            max-width: 100%;
+        }
+        .workers-card__info {
+            padding: 0 0 20px;
+        }
+        .workers-card__info-img{
+            width: 100%;
+        }
+    }
+}
